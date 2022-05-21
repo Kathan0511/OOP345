@@ -1,0 +1,93 @@
+Script started on Sun 30 Jan 2022 09:45:33 PM EST
+==97999== Memcheck, a memory error detector
+==97999== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==97999== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==97999== Command: ws proteinsequences.txt
+==97999== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line:
+--------------------------
+  1: ws
+  2: proteinsequences.txt
+--------------------------
+
+  0-arg Constructor - protein_DBA.size =       0 strings -> 
+                                                   (a) String     1: []
+                                                   (a) String   100: []
+                                                   (a) String  1000: []
+                                                   (a) String  last: []
+                                                   (a) String last+: []
+
+  1-arg Constructor - protein_DBB.size =   23012 strings -> 
+                                                   (b) String     1: [381][MGARHLRYGREAGMNKTEIP][SALLSPQQNAEEREPAVPVS]
+                                                   (b) String   100: [561][MSTPAPGPRSGGELLVAQLQ][ADIILPDRTLSQLRRTETVA]
+                                                   (b) String  1000: [427][MPQTLEVIATLLFAVAVLHT][LFLSALAPTLVAAVMFLLPV]
+                                                   (b) String  last: [361][MAKVALITGITGQDGAYLAE][AAKRDKIIEDHGYPVPLVHE]
+                                                   (b) String last+: []
+
+  Copy Constructor  - protein_DBC.size =   23012 strings -> 
+                                                   (c) String     1: [MGARHLRYGREAGMNKTEIP]
+                                                   (c) String   100: [MSTPAPGPRSGGELLVAQLQ]
+                                                   (c) String  1000: [MPQTLEVIATLLFAVAVLHT]
+                                                   (c) String  last: [MAKVALITGITGQDGAYLAE]
+                                                   (c) String last+: []
+
+  Copy Assignment   - protein_DBA.size =   23012 strings -> 
+                                                   (a) String     1: [MGARHLRYGREAGMNKTEIP]
+                                                   (a) String   100: [MSTPAPGPRSGGELLVAQLQ]
+                                                   (a) String  1000: [MPQTLEVIATLLFAVAVLHT]
+                                                   (a) String  last: [MAKVALITGITGQDGAYLAE]
+                                                   (a) String last+: []
+
+  Move Constructor  - protein_DBD.size =   23012 strings -> 
+                                                   (a) String     1: []
+                                                   (a) String   100: []
+                                                   (a) String  1000: []
+                                                   (a) String  last: []
+                                                   (a) String last+: []
+
+                                                   (d) String     1: [MGARHLRYGREAGMNKTEIP]
+                                                   (d) String   100: [MSTPAPGPRSGGELLVAQLQ]
+                                                   (d) String  1000: [MPQTLEVIATLLFAVAVLHT]
+                                                   (d) String  last: [MAKVALITGITGQDGAYLAE]
+                                                   (d) String last+: []
+
+  Move Assignment   - protein_DBA.size =   23012 strings -> 
+                                                   (a) String     1: [MGARHLRYGREAGMNKTEIP]
+                                                   (a) String   100: [MSTPAPGPRSGGELLVAQLQ]
+                                                   (a) String  1000: [MPQTLEVIATLLFAVAVLHT]
+                                                   (a) String  last: [MAKVALITGITGQDGAYLAE]
+                                                   (a) String last+: []
+
+                                                   (d) String     1: []
+                                                   (d) String   100: []
+                                                   (d) String  1000: []
+                                                   (d) String  last: []
+                                                   (d) String last+: []
+--------------------------
+Execution Times:
+--------------------------
+  0-arg Constructor          742892 nanoseconds
+  1-arg Constructor      2830667289 nanoseconds
+  Copy Constructor        143419324 nanoseconds
+  Copy Assignment         140686054 nanoseconds
+  Move Constructor          1144887 nanoseconds
+  Move Assignment            632393 nanoseconds
+  Destructor              162234417 nanoseconds
+--------------------------
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==97999== 
+==97999== HEAP SUMMARY:
+==97999==     in use at exit: 0 bytes in 0 blocks
+==97999==   total heap usage: 151,729 allocs, 151,729 frees, 39,972,567 bytes allocated
+==97999== 
+==97999== All heap blocks were freed -- no leaks are possible
+==97999== 
+==97999== For lists of detected and suppressed errors, rerun with: -s
+==97999== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 30 Jan 2022 09:45:37 PM EST

@@ -1,0 +1,26 @@
+//==============================================
+// Name: Kathan Patel
+// Email: kjpatel30@myseneca.ca
+// StudentID: 148609191
+// Date: 30/01/2022
+// Section: NEE
+//==============================================
+
+The workshop 2 was pretty tough for me as I use to get confuse in class and many other things
+but by looking at the notes and lectures i found my way out.
+
+Primarily, I had problems executing functions std::chrono::steady_clock::time_point clockStartTime/clockEndTime and std::chrono::steady_clock::duration
+as I was doing and assigning values and making class wrong and maybe my method was not good enough for doing it in this particular
+workshop but looking at the notes and recorded lectures helps a lot. I alsoo wasted a lot of my time on nanoseconds attribute, though
+it was so simple it was just endtime-starttime but I was just overthinking and complicating it. Although I didn't faced alot difficulties 
+in ProteinDatabase module but it was bit hard to design the function that reads the file and count the strings with allocating string memory and
+re-reading the file but somehow with trial and error method i overcame that. One of my friend also helped me in that to understand the concept
+properly with certain examples. Also learned about move assignment operator and construct. I transferred the memory to new instance to save time
+coping all the resources.This is very handy in the situations where, object is about to expire and the resources needs to be allocated to a new 
+class object.
+
+Talking about the difference between cpoy and move operations, the Copy operations only copy the data of one object to another, leaving the original
+data member still existing while the Move allows the original data to be moved instead of just copied to discourage floating data within the memory.
+Overall it was good learning a lot and doing the workshop.
+
+Thank you.
