@@ -1,15 +1,4 @@
-//==============================================
-//Name: Kathan Patel           
-//Student ID: 148609191       
-//Email: kjpatel30@myseneca.ca            
-//Section: NEE        
-//Date: 23/01/2022               
-//==============================================
-
-
-//I have done mostly all the coding by myselfand took some help for understanding some scopes from
-//my personal tutor only copied the code that my professor provided to complete my workshopsand assignments.  
-// (can provide tutor details upon request.)
+ 
 
 
 #ifndef SDDS_FOODORDER_H__
