@@ -1,0 +1,19 @@
+
+
+The workshop 4 was pretty tough for me as I use to get confuse in class and many other things
+but by looking at the notes and lectures i found my way out.
+
+In this workshop, I learned how create a class that has contains a composition. A composition involves complete ownership of another 
+class. The composer type is responsible for managing the composing type and That means the composing type must contain the value of an one 
+or more objects of the composing type either dynamically allocated or statically allocated. Whilst To copy the contents of an 
+object with a composition relationship, the memory associated with the composing type within the current object must be deallocated with the delete 
+expression. Memory is then reallocated for the composing type to be able to store the same amount of objects of composing type as the right operand.
+The logic between the move operators in a composition and an aggregation is very similar to each other. All members are shallow copied. 
+In composition, the address of the dynamic array holding composing objects is copied to the current object. In aggregation, the address of the dynamic 
+array holding addresses of aggregatee types is copied to the current object.
+
+Overall it was great learning experience and doing the workshop was fun.
+
+Thank you.
+
+source and help: Nicholas Defranco (An alumni)
