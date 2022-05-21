@@ -1,10 +1,4 @@
-//==============================================
-// Name: Kathan Patel
-// Email: kjpatel30@myseneca.ca
-// StudentID: 148609191
-// Date: 23/01/2021
-// Section: NEE
-//==============================================
+
 
 
 This workshop helped me a lot summarizing all the concepts and plots of last 
