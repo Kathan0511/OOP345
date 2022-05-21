@@ -1,0 +1,24 @@
+
+
+This workshop was pretty much easy and concepts were not that hard to digest and work them out and I got my hands 
+on handeling static and dynamic allocated objects. In this workshop I also learned that how we can use Vectors effectively. 
+While doing the workshop I had pretty much dificulties in working on FIle and Filesystem modules mostly
+while using some certain functions but to overcome that I went through lecture recordings 
+and also had some help from my online tutor for understanding clearity of my concepts and to make sure
+my solution is as good as I can make it.
+What happens when we don't deallocate dynamically allocated memory in vector is we will get a memory leak
+and will get error in heap summary while compilation.
+
+The function NodeType type() can know what went wrong if we make up an another solution which has functions
+which finds the errors and make right the type of data that are accepted by the program by 
+comparing it with given text file.
+
+Maybe yes, we can use std::vector<sdds::Resource> vectors instead of using its 
+pointer types as in both of them as vectors can enter and store any data or elements while we can also
+delete the data or elements from them when necessary. And I don't know the proper reason but I
+think pointers is more favorable method to use.
+
+Overall, working on the workshop I learned a lot of new concepts and the workshop was bit time
+consuming but considering it a gain.
+
+Thank you
