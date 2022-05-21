@@ -1,0 +1,22 @@
+
+
+
+Doing workshop 3 was way difficult then expected as for me there were many 
+concepts to go through and I also came across many difficulties and tons
+of errors but somehow I managed to find my way out of it. Some of the concepts
+were new to me and it took sometime to understand but was able to do it.
+
+Well, we specialized operator+= member function in one of the header(.h) files
+such as Pair.h or Set.h to make sure that the function does not results in any error
+and works/compile properly. 
+We also need to use the special operators sto overload the string operator because 
+the regular operator does not helps us with the string object.
+Also when we declare a template header for a class it is only accessible in the class
+or untill calss is closed with {}(curly brackets) and even if we try to define it outside
+the module it can give us linkage errors.
+Finally, we learned about polymorphism using templates and inheriting templates functions.
+We used the same classes have been used multiple times for the different object but as we
+used templates there was no need to make seperate classes repeatedly.
+
+The workshop was bit hard and time consuming but gained knowledge.
+Thank you
