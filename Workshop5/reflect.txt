@@ -1,0 +1,18 @@
+
+
+
+Doing workshop 5 was way difficult then expected as for me there were many 
+concepts to go through and I also came across many difficulties and tons
+of errors but somehow I managed to find my way out of it. Some of the concepts
+were new to me and it took sometime to understand but was able to do it.
+
+In this workshop I came across the concepts Functions, Functors, Lambdas and error handling. The main difference between function object and lambda is that lambdas are executed
+only once within a function or a scope using identifiers, parameters and logics but acts like a normal function whereas object funtions/functors are classes
+overloaded with the brackets operator. So we can say that lambda is a function and functor is a class which also works as a function.
+Actually using constructor as default is not necessary but it's nice to use it for good practice but here we could remove main module but we kept it but if we don't
+want to fill up right from it's initialization then it would be good to have a constructor to put them in a empty state. To avoid 
+duplication of logic I would create another class function object and inherit movies and book module from it.
+
+Overall, working on the workshop I learned a lot of new concepts
+The workshop was bit hard and time consuming but gained knowledge.
+Thank you
