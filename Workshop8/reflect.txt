@@ -1,0 +1,38 @@
+
+
+
+This workshop was pretty much easy and concepts were not that hard to digest and work them out and 
+I got my hands on how to use Smart pointers effectively in the code. overall the workshop
+was pretty easy and dooable but the most tedious task to use a smart pointer to move an object plus also
+learned using smart pointers instead of raw pointers is a good practice. We also used mergeRow and mergeSmart functions
+which helped alot through out the code. The thing that took more time was 
+properly implementing exceptions using own object and making a good program.
+
+The advantage of using the smart pointer is that they prevents the resource leaks and no deallocation of memory is 
+needed to be declared after the smart pointer is used.
+Example:
+List<Product> mergeRaw(const List<Description>& desc, const List<Price>& price) {
+		List<Product> priceList;
+		for (size_t i = 0; i < desc.size(); i++) {
+			for (size_t j = 0; j < price.size(); j++) {
+				if (desc[i].prod_code == price[j].prod_code) {
+					Product* Prot = new Product(desc[i].desc, price[j].price);
+					Prot->validate();
+					priceList += Prot;
+					delete Prot;
+					Prot = nullptr;}}}
+		return priceList;}
+
+
+The difference between a smart pointer and raw pointer is the proper use of (*) operator in the statement. The raw
+pointer that contains an address and the value of where its pointed which can't figure hanldle the resource 
+management by itself and it also helps the program to access the address of value without creating a reference whereas
+the smart pointer lets the program to initialize its value in the memory of program while the program itself is 
+initializing. As per my knowledge the examples of it are:
+Smart pointer: std::unique_ptr<Product> Prot{ new Product(desc[i].desc, price[x].price) };
+Raw pointer: Product* Prot = new Product(desc[i].desc, price[j].price);
+
+
+Overall, working on the workshop I learned a lot of new concepts
+The workshop was pretty much easy but gained alot of knowledge.
+Thank you.
