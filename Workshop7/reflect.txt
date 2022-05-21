@@ -1,0 +1,27 @@
+
+
+
+This workshop was pretty much easy and concepts were not that hard to digest and work them out and 
+I got my hands on how to use STL containers and algorithms effectively in the code. overall the workshop
+was pretty easy and dooable but the most tedious task to perform was selecting perfect function to use as per
+the need from the STL containers and algorithms library. It took sometime & was difficult to figure out placing 
+the fuctions inCollection, for_each and getSongsForArtist but looking at lecture and course notes I figured it out.
+
+The STL functions I used in this workshop were:
+-- cleanAlbum with for_each 
+I used this function as after a trial and error method I came to know that this is the only function that helps
+me modify but can also help me for CleanAblum where other functions were not working perfectly here.
+-- Used inCollection with find_if
+For this I took reference from one of my classmate and he gave me list of some functions and from trying all of them
+this function helped me to get through it.
+getSongsForArist with count_if
+-- For this I tried using copy_if function as I thought it will be a good fit but I was not able to execute
+it properly so I tried using count_if and it worked for me.
+
+The advantages of using STL algorithms instead of implementing the functionality loops by myself is it saves a
+lot of time and also does not have write pages of code, it is also considered a great practice as this method
+is more efficient while it also reduces alot of looping statements in code. 
+
+Overall, working on the workshop I learned a lot of new concepts
+The workshop was pretty much easy but gained alot of knowledge.
+Thank you.
