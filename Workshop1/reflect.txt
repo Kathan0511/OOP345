@@ -1,0 +1,47 @@
+//==============================================
+// Name: Kathan Patel
+// Email: kjpatel30@myseneca.ca
+// StudentID: 148609191
+// Date: 23/01/2021
+// Section: NEE
+//==============================================
+
+
+This workshop helped me a lot summarizing all the concepts and plots of last 
+semester as we need to implement some of the old concepts.
+
+As per my understanding Internal linkage refers or works with everything insidethe scope whilst External linkage refers or works with the entire program. The internal 
+linkage is put in action by the use of static variable as variable with the static key remains
+always in the program memory. I also came across that how helpful it is to pass arguments of main func. using command line
+For Eg: Here we used static variable to count the occurance of the function in display function
+indeed if you are defining static variable there is no use of defining Global or class variables.
+
+I had to make small small changes in part 2 for submitting like creating constructor & destructor, copy assignment operator, copy constructor, static variable and allocating
+dynamic memory.
+-- if (Special == 'Y') {
+				theSpecialPrice = true;
+			}
+			else {
+				theSpecialPrice = false;
+			}
+		}
+		return istr;
+	}
+    
+-- if (theSpecialPrice) {
+				cout.precision(2);
+				cout.setf(ios::fixed);
+				cout << Foodprice - g_dailydiscount << endl;
+				cout.unsetf(ios::fixed);
+			}
+
+-- else {
+			cout.width(2);
+			cout.setf(ios::left);
+			cout << Time << ". No Order" << endl;
+		}
+		Time++;
+	}
+
+
+Thanks a lot for explaning the concents and giving us this oppurtunity to work on such workshops.
